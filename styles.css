@@ -1,29 +1,107 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: white;
-
+    align-items: center;
+    height: 30px;
+    padding: 30px;
+    color: #333333;
 }
 .nav-item {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 60px;
-    color: blue;
+    color: #333333;
+    width: 50%;  
 }
 
-#hero {
-    background-image: url(./image/photo-1443527216320-7e744084f5a7-1.jpg);
-    width: 100%;
-    height: 100%
-    
+.hero {
+    background-image: url(image/photo-1443527216320-7e744084f5a7-1.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
-.overlay{
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+#hero-title {
+    color: white;
+    font-size: 3rem;
+}
+
+#hero-text {
+    color: white;
+}
+
+.btn-blue {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+.btn-white {
+    padding: 10px 30px;
+    background-color: none;
+
+}
+.logo{
+    color: #333333;
+    font-size: 1.5rem;
+}
+.small-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    margin-top: 42px;
+    gap: 10px;
+
+}
+.image-text {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.macbook {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+
+
+}
+.third-image {
+    background-image: url(./image/Third\ picture.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+.overlay-third-image {
     height: 100%;
     width: 100%;
     display: flex;
@@ -33,8 +111,33 @@ nav {
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
+    
+}
+.third-image-button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
+.image-button {
+    background-color: blueviolet;
+    color: white;
+    padding: 20px 20%;
+    border: none;
+}
+.image-text {
+    width: 40%;
+    display: flex;
+    padding-top: 0%;
+    padding-right: 20px;
+    flex-direction: column;
+}
+.image-text h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
 
 }
-#hero-title {
-    font-size: 3rem;
+.image-text p {
+    color: #333333;
 }
