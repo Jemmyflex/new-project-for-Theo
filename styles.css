@@ -21,6 +21,10 @@ nav {
     width: 60px;
     color: #333333;
     width: 50%;  
+    font-size: 14px;
+    line-height: 53px;
+    letter-spacing: normal;
+    text-align:
 }
 
 .hero {
@@ -46,7 +50,11 @@ nav {
 
 #hero-title {
     color: white;
-    font-size: 3rem;
+    font-size: 60px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: normal;
+    font-style: initial;
 }
 
 #hero-text {
@@ -54,14 +62,24 @@ nav {
 }
 
 .btn-blue {
-    background-color: blueviolet;
+    background-color: #5645C9;
     color: white;
-    padding: 10px 30px;
     border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 24px;
+    padding: 10px 30px;
 }
 .btn-white {
     padding: 10px 30px;
-    background-color: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border-color: aliceblue;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 24px;
 
 }
 .logo{
@@ -83,6 +101,9 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 14;
+    line-height: 24px;
+    text-align: start;
 
 }
 .macbook {
@@ -114,14 +135,14 @@ nav {
     
 }
 .third-image-button {
-    background-color: blueviolet;
+    background-color: #6D59DB;
     color: white;
     padding: 10px 30px;
     border: none;
 }
 
 .image-button {
-    background-color: blueviolet;
+    background-color: #5D47D7;
     color: white;
     padding: 20px 20%;
     border: none;
@@ -140,4 +161,41 @@ nav {
 }
 .image-text p {
     color: #333333;
+}
+
+.portfolio-sec {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    margin-top: 42px;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+
+
+}
+.h3 {
+    width: 50%;
+
+}
+.portfolio-text {
+    justify-content: space-between;
+    text-align: start;
+    line-height: 24px;
+    font-size: 14px;
+
+
+}
+.portfolio-sec-but {
+    color: white;
+    background-color: #5D47D7;
+    border: none;
+    text-align: center;
+    letter-spacing: 1;
+    font-size: 14px;
+    padding: 20px 10px;
+
 }
